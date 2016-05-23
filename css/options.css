@@ -1,0 +1,106 @@
+.autocomplete-w1 { background:url(../images/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:6px 0 0 6px; /* IE6 fix: */ _background:none; _margin:1px 0 0 0; }
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; overflow:hidden; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+body, html, h1, h2, h3 {
+	font-family:Arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+	#main-container {
+		width: 90%;
+		margin: 0 auto;
+		text-align:center;
+	}
+	
+	fieldset {
+		width:50%;
+		margin:0 auto;
+		text-align:left;
+		border:none;
+	}
+	
+	fieldset legend {
+		font-weight:bold;
+		padding-right:5px;
+		font-size:12px;		
+	}
+	
+	fieldset label {
+		font-weight:bold;
+		padding-right:5px;
+		font-size:12px;
+		width:160px;
+		display:block;
+		float:left;
+		padding-top:4px;
+	}
+	
+	#language-box fieldset label {
+		width:100px !important;
+	}
+
+	.box-container {
+     background: #BBCFF3;
+     padding: 10px;
+     margin: 3px;
+     -webkit-border-radius: 4px;
+     text-align:center;
+	}
+	
+	.box {
+     margin:10px;
+     background: #FFFFFF;
+     border: #999999 solid 1px;
+     -webkit-border-radius: 4px;
+	}
+	
+	#header {
+		text-align:left;
+		margin:4px;
+		padding:5px;
+	}
+	
+	#header img 
+	{
+		margin-left:15px;
+		margin-bottom:10px;
+		float:left;
+	}
+	
+	#header h1 {
+		text-align:center;
+		float:left;
+		height:25px;
+		width:80%;
+		padding-top: 40px;
+		font-size:16px;
+		color: #00349A;
+		font-weight:bold;
+	}
+	
+	.button {
+     -webkit-border-radius: 2px;
+     background: #00349A;
+     color: #FFFFFF;
+     padding:6px;
+     font-size:14px;
+     font-weight:bold;
+     cursor:pointer;
+	}
+	
+	.button-small {
+     -webkit-border-radius: 2px;
+     background: #00349A;
+     color: #FFFFFF;
+     padding:4px;
+     font-weight:bold;
+     cursor:pointer;
+	}

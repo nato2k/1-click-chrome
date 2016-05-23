@@ -1,0 +1,73 @@
+<html>
+<head>
+<link href="css/index.css" media="screen" rel="stylesheet" type="text/css" /> 	
+<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/date-functions.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+</script>
+</head>
+<body id="full">
+<div id="nodata">
+		You must first configure the extension before you will be able to run it.<br>
+		This includes selecting a default location and making a language selection.<br>
+		Please access the options menu to make your selections.<br>
+</div>
+<div id="main">
+<div id="header">
+	<img id="logo" src=""  />
+	<div class="data">
+		<h1 id="val_loca"></h1>
+		<h2 id="lbl_lupd"></h2>
+	</div>
+</div>
+<div id="box-conditions">
+	<div id="data">
+			<h1 id="val_cond"></h1>
+			<p><label id="lbl_humi"></label><span id="val_humi"></span></p>
+			<p><label id="lbl_visi"></label><span id="val_visi"></span></p>
+			<p><label id="lbl_wind"></label><span id="val_wind"></span></p>
+			<div id="links">
+			<p><a id="lnkHourByHour"></a></p>
+			<p><a id="lnkMapRoom"></p>
+			</div>
+	</div>
+	<div id="current-container">
+		<div id="current">
+		<img id="icon_cond" width="72" height="72" />
+		<h2 id="val_temp"></h2>
+		<h3><span id="lbl_feelsLike"></span> <span id="val_feelsLike"></span></h3>
+		</div>
+		<div id="alert">Active Alerts &gt;</div>
+	</div>
+</div>
+<div class="box">
+<h1><a id="lnkWeatherInMotion"></a><span id="mapTitle"></span></h1>
+<div id="map-container" class="container">
+	<img id="mapImage" width="277" height="187" />
+</div>
+</div>
+<div class="box">
+<h1><a id="lnkExtendedOutlook"></a><span id="titleForecast"></span></h1>
+<div id="outlook-container" class="container">
+	<div id="forecast1" class="forecast">
+		<div class="fc-container">
+			<h2 id="part1_day"></h2>
+			<h3 id="part1_val_temp"></h3>
+			<label class="lbl_prec"></label><span id="part1_val_prec"></span>
+		</div>
+	</div>
+	<div id="forecast2" class="forecast">
+		<div class="fc-container">
+			<h2 id="part2_day"></h2>
+			<h3 id="part2_val_temp"></h3>
+			<label class="lbl_prec"></label><span id="part2_val_prec"></span>
+		</div>
+	</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

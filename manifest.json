@@ -1,0 +1,21 @@
+{
+   "background": {
+	"page": "background.html"
+	},
+   "browser_action": {
+      "default_icon": "images/logo/128.png",
+      "default_popup": "index.html"
+   },
+   "description": "Current weather conditions, maps, and the outlook for the next 24 hours in an easy to scan format from The Weather Channel.",
+   "icons": {
+      "128": "images/logo/128.png",
+      "48": "images/logo/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLezwKg3xqFddX9B6Za6pD3DMg4CQaY+TU3okVoAGEc1i+wQBm5p4a4L71RYZKUP8iGhQpgztnjvovg8EOSKuDI3GGBaRyfz4d3rIwEC2ONb3GH/08q6o9YfsXB083TKnWTuEtG05Uz0+I0QQJLVR6nIHV7lDziPw9ZqJxwuZP/wIDAQAB",
+   "name": "1-ClickWeather for Chrome",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "http://builddata.weather.com/*", "http://chr.1click.weather.com/*", "http://www.weather.com/*", "http://bd.image.weather.com/*", "background" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "manifest_version": 2,
+   "version": "1.1.0.3"
+}

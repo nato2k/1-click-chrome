@@ -1,0 +1,265 @@
+body, html, h1, h2, h3 {
+	font-family:Arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+#main 
+{
+		 width:289px;
+		 height:575px;
+     background: #BBCFF3;
+     padding: 8px 3px 1px 3px;
+     -webkit-border-radius: 5px;
+}
+
+#header {
+	padding-left:5px;
+	height:84px;
+}
+
+#header h1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	margin:0;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+h1 a, #links a {
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#header h2 {
+	font-size: 11px;
+	color: #003399;
+	margin:0;
+	margin-top:3px;
+}
+
+#header .data {
+	width:65%;
+	height:100%;
+}
+
+#header img {
+	float:right;
+	padding-right:2px;
+	margin-top:4px;
+	cursor:pointer;
+}
+
+#box-conditions {
+		border:1px solid #869DCB;
+    -webkit-border-radius: 3px;
+    background: url(../images/bg_conditions.jpg) repeat-x;
+    height:148px;
+}
+
+#box-conditions #current-container {
+    height:119px;
+    width:120px;
+    margin: 3px;
+    height:148px;
+}
+
+#box-conditions #current {
+    -webkit-border-radius: 2px;
+    background: url(../images/bg_icon.jpg) repeat-x;
+    height:119px;
+    cursor:pointer;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+#box-conditions #current img
+{
+	margin-top: 1px;
+}
+
+#box-conditions #current h2
+{
+	font-size:24px;
+}
+
+#box-conditions #current h3
+{
+	font-size:10px;
+	font-weight:bold;
+}
+
+#box-conditions #data {
+    width:153px;
+    margin:2px;
+    float:right;
+}
+
+#box-conditions #data h1 {
+	font-family: Tahoma;
+	font-size:14px;
+	color: #003399;
+	margin:0 0 5px 0;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#box-conditions #data p {
+	margin:2px 0px 2px 0px;
+	font-family: Tahoma;
+	font-size:11px;
+	color: #000000;
+}
+
+#box-conditions #data p span
+{
+	font-weight:bold;
+	padding-left: 2px;
+}
+
+#box-conditions #data #links {
+	margin-top:10px;
+}
+
+#box-conditions #data #links p
+{
+	margin:2px 0px 2px 0px;
+	font-family: Arial;
+	font-size:11px;
+	font-weight:bold;
+	color: #003399;
+}
+
+#box-conditions #data #links p a {
+	cursor:pointer;
+}
+
+#box-conditions #alert {
+    -webkit-border-radius: 2px;
+    background: #D70101;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    height:18px;
+    width:120px;
+    margin-top: 2px;
+    text-align:center;
+    padding-top:3px;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.box {
+	margin-top:9px;
+}
+
+.box h1 {
+  	border:1px #869DCB;
+  	border-style: solid solid none solid;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+	  background: #003399;
+	  font-size:12px;
+	  font-weight:bold;
+	  color:#FFFFFF;
+	  height:19px;
+	  padding:2px 8px 0px 8px;
+	  margin:0;
+}
+
+.box h1 a {
+	float:right;
+	font-size: 9.5px;
+	padding-top:1px;
+	padding-right:3px;
+}
+
+.box .container {
+  	border:1px #869DCB;
+  	border-style: none solid solid solid;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+}
+
+.box #map-container 
+{
+	height: 196px;
+  background: url(../images/bg_map.jpg) repeat-x;
+  text-align:center;
+}
+
+.box #map-container img {
+	cursor:pointer;
+	margin-top:5px;
+}
+
+.box #outlook-container 
+{
+	height: 80px;
+  background: url(../images/bg_outlook.jpg) repeat-x;
+}
+
+.forecast {
+	float:left;
+	width: 139px;
+	height: 80px;
+	padding-top: 10px;
+	cursor:pointer;
+}
+
+#forecast1 {
+	padding-left: 8px;
+}
+
+#forecast2 {
+	padding-left: 0px !important;
+}
+
+.forecast img {
+	float:right;
+	margin-top:5px;
+	cursor:pointer;
+}
+.fc-container {
+	width:85px;
+}
+
+.fc-container h2 {
+	font-size: 13px;
+	font-weight:bold;
+	color: #003399;
+}
+
+.fc-container h3 {
+	font-size: 20px;
+	color: #000000;
+}
+
+.fc-container label, .fc-container span {
+	font-family: Tahoma;
+	font-size:10px;
+}
+
+.fc-container span {
+	padding-left:2px;
+}
+
+.fc-container label {
+	color: #003399;
+}
+
+#nodata {
+	display:none;
+  width:289px;
+  background: #BBCFF3;
+  padding: 8px 5px 8px 5px;
+  -webkit-border-radius: 5px;
+  text-align:center;
+  font-weight:bold;
+  font-size:12px;
+}
