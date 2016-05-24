@@ -615,9 +615,12 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
         if (weatherData.hasCurrentCondition) 
         {
 				  weatherData.lastUpdated = findTextContent(xmlDoc, "/weather/cc/lsup");
-	        weatherData.temperatureClear = String.format("{0}°", findTextContent(xmlDoc, "/weather/cc/tmp"));
+//	        weatherData.temperatureClear = String.format("{0}°", findTextContent(xmlDoc, "/weather/cc/tmp"));
+			weatherData.temperatureClear = String.format("{0}\xB0", findTextContent(xmlDoc, "/weather/cc/tmp"));
 	        weatherData.temperature = String.format("{0}{1}", weatherData.temperatureClear, ut);
-	        weatherData.feelsLike = String.format("{0}°{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
+			console.log("UT:" + ut)
+//	        weatherData.feelsLike = String.format("{0}°{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
+			weatherData.feelsLike = String.format("{0}\xB0{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
 	        weatherData.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/cc/icon"),2));
 				  weatherData.condition = findTextContent(xmlDoc, "/weather/cc/t");
 				  weatherData.humidity = String.format("{0}%",findTextContent(xmlDoc, "/weather/cc/hmid"));
@@ -678,9 +681,9 @@ function setForecast(xmlDoc, forecast, day, part, ut) {
 		forecast.highTemperature = "N/D";
 		forecast.lowTemperature = "N/D";
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi") != "N/D")
-			forecast.highTemperature = String.format("{0}°{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi"), ut);
+			forecast.highTemperature = String.format("{0}\xB0{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi"), ut);
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low") != "N/D")
-			forecast.lowTemperature = String.format("{0}°{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low"), ut);
+			forecast.lowTemperature = String.format("{0}\xB0{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low"), ut);
 		forecast.condition = findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/t");
 		forecast.precipitation = String.format("{0}%", findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/ppcp"));
 		forecast.dayPart = part;
