@@ -1,17 +1,17 @@
 var internationalLinks = 
 {
-	eur:"http://www.weather.com/maps/geography/europe/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-europe",
-	me:"http://www.weather.com/maps/geography/africaandmiddleeast/middleeastsatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-mideast",
-	mex:"http://www.weather.com/maps/geography/northamerica/mexicosatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-mex",
-	russia:"http://www.weather.com/maps/geography/europe/russiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-russia",
-	afr:"http://www.weather.com/maps/geography/africaandmiddleeast/africasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-africa",
-	india:"http://www.weather.com/maps/geography/pacific/asiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-asia",
-	carib:"http://www.weather.com/maps/geography/centralamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-cenamer",
-	asia:"http://www.weather.com/maps/geography/pacific/asiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-asia",
-	can:"http://www.weather.com/maps/geography/northamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-canada",
-	sa:"http://www.weather.com/maps/geography/southamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-samer",
-	pac:"http://www.weather.com/maps/geography/australia/australiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-australia",
-	aus:"http://www.weather.com/maps/geography/australia/australiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-australia"
+	eur:"https://weather.com/maps/satellite/unitedkingdom-weather-map",
+	me:"http://www.weather.com/maps/satellite/europe-africaweathermap/middleeastsatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-mideast",
+	mex:"http://www.weather.com/maps/satellite/northamerica/mexicosatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-mex",
+	russia:"http://www.weather.com/maps/satelitte/europe/russiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-russia",
+	afr:"http://www.weather.com/maps/satellite/africaandmiddleeast/africasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-africa",
+	india:"http://www.weather.com/maps/satellite/pacific/asiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-asia",
+	carib:"http://www.weather.com/maps/satellite/centralamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-cenamer",
+	asia:"http://www.weather.com/maps/satellite/pacific/asiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-asia",
+	can:"http://www.weather.com/maps/satellite/northamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-canada",
+	sa:"http://www.weather.com/maps/satellite/southamerica/index_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-samer",
+	pac:"http://www.weather.com/maps/satellite/australia/australiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-australia",
+	aus:"http://www.weather.com/maps/satellite/australia/australiasatellite_large_animated.html?par=chromev1.1.0&site=intl-sat&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=intl-sat&cm_ite=aisat-australia"
 }
 
 var mapImages =
@@ -237,115 +237,115 @@ international :
 },
 regional_doppler : 
 {
-AK    :{ map : "http://i.imwx.com/web/radar/us_alaska_radar_small_usen.jpg",link: "http://www.weather.com/maps/geography/alaskaus/alaskaradar2100mile_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-alaska" },
-AL    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southeastus/southeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
-AR    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southcentralus/southcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
-AZ    :{ map : "http://i.imwx.com/web/radar/us_sw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southwestus/southwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-sw" },
-CA    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
-CO    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
-CT    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-DC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-DE    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-FL    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southeastus/southeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
-GA    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southeastus/southeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
-HI    :{ map : "http://i.imwx.com/web/radar/us_hawaii_radar_small_usen.jpg",link: "http://www.weather.com/maps/geography/hawaiius/hawaiiradar600mile_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-hawaii" },
-IA    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
-ID    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
-IL    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
-IN    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-KS    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
-KY    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-LA    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southeastus/southeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
-MA    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-MD    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-ME    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-MI    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-MN    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
-MO    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
-MS    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southcentralus/southcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
-MT    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northwestus/northwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
-NC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-ND    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
-NE    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
-NH    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-NJ    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-NM    :{ map : "http://i.imwx.com/web/radar/us_sw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southwestus/southwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-sw" },
-NV    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
-NY    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-OH    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-OK    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southcentralus/southcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
-OR    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northwestus/northwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
-PA    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+AK    :{ map : "http://i.imwx.com/web/radar/us_alaska_radar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USAK0012:1:US?animation=false?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-alaska" },
+AL    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USAL0054:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
+AR    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USAR0336:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
+AZ    :{ map : "http://i.imwx.com/web/radar/us_sw_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USAZ0166:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-sw" },
+CA    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USCA0638:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
+CO    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USCO0078:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
+CT    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USCT0094:1:US?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+DC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USDC0001:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+DE    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USDE0012:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+FL    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USFL0228:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
+GA    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USGA0028:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
+HI    :{ map : "http://i.imwx.com/web/radar/us_hawaii_radar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USHI0020:1:US?animation=true&layer=radarHawaii&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-hawaii" },
+IA    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USIA0231:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
+ID    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USID0025:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
+IL    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USIL0225:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
+IN    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USIN0305:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+KS    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USKS0620:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
+KY    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USKY1079:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+LA    :{ map : "http://i.imwx.com/web/radar/us_se_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USLA0033:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-se" },
+MA    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+MD    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+ME    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+MI    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+MN    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
+MO    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
+MS    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/southcentralus/southcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
+MT    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northwestus/northwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
+NC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USSC0141:1:US?animation=true&layer=radarConus&zoom=8" },
+ND    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
+NE    :{ map : "http://i.imwx.com/web/radar/us_cn_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/centralus/centraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-cen" },
+NH    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+NJ    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+NM    :{ map : "http://i.imwx.com/web/radar/us_sw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/southwestus/southwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-sw" },
+NV    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
+NY    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USNY0996:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+OH    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+OK    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USOK0400:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
+OR    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northwestus/northwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
+PA    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
 PR    :{ map : "http://i.imwx.com/web/radar/us_sju_closeradar_small_usen.jpg",link: "http://www.weather.com/weather/map/USPR0001?showanimation=yes&mapregion=us_sju_closeradar_plus_usen&par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-pr" },
-RI    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
-SC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-SD    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
-TN    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-TX    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/southcentralus/southcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
-UT    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
-VA    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-VT    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+RI    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northeastus/northeastdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
+SC    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USSC0065:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+SD    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/satellite/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
+TN    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USTN0357:1:US?animation=false&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+TX    :{ map : "http://i.imwx.com/web/radar/us_sc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USTX0327:1:US?animation=false&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-scen" },
+UT    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USUT0225:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" },
+VA    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USVA0652:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+VT    :{ map : "http://i.imwx.com/web/radar/us_ne_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USVT0033:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ne" },
 VI    :{ map : "http://i.imwx.com/web/radar/us_sju_closeradar_small_usen.jpg",link: "http://www.weather.com/weather/map/USPR0001?showanimation=yes&mapregion=us_sju_closeradar_plus_usen&par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-pr" },
-WA    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northwestus/northwestdopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
-WI    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/northcentralus/northcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
-WV    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/eastcentralus/eastcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
-WY    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "http://www.weather.com/maps/geography/westcentralus/westcentraldopplerradar1800_large_animated.html?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" }
+WA    :{ map : "http://i.imwx.com/web/radar/us_nw_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USWA0395:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-nw" },
+WI    :{ map : "http://i.imwx.com/web/radar/us_nc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USWI0411:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ncen" },
+WV    :{ map : "http://i.imwx.com/web/radar/us_ec_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USWV0138:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-ecen" },
+WY    :{ map : "http://i.imwx.com/web/radar/us_wc_9regradar_small_usen.jpg",link: "https://weather.com/weather/radar/interactive/l/USWY0032:1:US?animation=true&layer=radarConus&zoom=8?par=chromev1.1.0&site=us-doppler&cm_ven=Chrome&cm_cat=chromev1.1.0&cm_pla=us-doppler&cm_ite=adoppler-wcen" }
 },
 regional_satellite :
 {
-AK    :"http://bd.image.weather.com/images/sat/aksat_277x187.jpg",
-AL    :"http://bd.image.weather.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
-AR    :"http://bd.image.weather.com/images/sat/regions/s_central_sat_277x187.jpg",
-AZ    :"http://bd.image.weather.com/web/maps/satellite/regions/southwest_sat_277x187.jpg",
-CA    :"http://bd.image.weather.com/images/sat/regions/west_cen_sat_277x187.jpg",
-CO    :"http://bd.image.weather.com/images/sat/regions/central_sat_277x187.jpg",
-CT    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-DC    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-DE    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-FL    :"http://bd.image.weather.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
-GA    :"http://bd.image.weather.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
-HI    :"http://bd.image.weather.com/web/maps/satellite/regions/hisat_277x187.jp",
-IA    :"http://bd.image.weather.com/images/sat/regions/n_central_sat_277x187.jpg",
-ID    :"http://bd.image.weather.com/images/sat/regions/west_cen_sat_277x187.jpg",
-IL    :"http://bd.image.weather.com/images/sat/regions/central_sat_277x187.jpg",
-IN    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-KS    :"http://bd.image.weather.com/images/sat/regions/central_sat_277x187.jpg",
-KY    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-LA    :"http://bd.image.weather.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
-MA    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-MD    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-ME    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-MI    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-MN    :"http://bd.image.weather.com/images/sat/regions/n_central_sat_277x187.jpg",
-MO    :"http://bd.image.weather.com/images/sat/regions/central_sat_277x187.jpg",
-MS    :"http://bd.image.weather.com/images/sat/regions/s_central_sat_277x187.jpg",
-MT    :"http://bd.image.weather.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
-NC    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-ND    :"http://bd.image.weather.com/images/sat/regions/n_central_sat_277x187.jpg",
-NE    :"http://bd.image.weather.com/images/sat/regions/central_sat_277x187.jpg",
-NH    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-NJ    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-NM    :"http://bd.image.weather.com/web/maps/satellite/regions/southwest_sat_277x187.jpg",
-NV    :"http://bd.image.weather.com/images/sat/regions/west_cen_sat_277x187.jpg",
-NY    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-OH    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-OK    :"http://bd.image.weather.com/images/sat/regions/s_central_sat_277x187.jpg",
-OR    :"http://bd.image.weather.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
-PA    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-PR    :"http://bd.image.weather.com/web/maps/satellite/regions/caribsat_277x187.jpg",
-RI    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-SC    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-SD    :"http://bd.image.weather.com/images/sat/regions/n_central_sat_277x187.jpg",
-TN    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-TX    :"http://bd.image.weather.com/images/sat/regions/s_central_sat_277x187.jpg",
-UT    :"http://bd.image.weather.com/images/sat/regions/west_cen_sat_277x187.jpg",
-VA    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-VT    :"http://bd.image.weather.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
-VI		:"http://bd.image.weather.com/web/maps/satellite/regions/caribsat_277x187.jpg",
-WA    :"http://bd.image.weather.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
-WI    :"http://bd.image.weather.com/images/sat/regions/n_central_sat_277x187.jpg",
-WV    :"http://bd.image.weather.com/images/sat/regions/east_cen_sat_277x187.jpg",
-WY    :"http://bd.image.weather.com/images/sat/regions/west_cen_sat_277x187.jpg"
+AK    :"http://i.imwx.com/images/sat/aksat_277x187.jpg",
+AL    :"http://i.imwx.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
+AR    :"http://i.imwx.com/images/sat/regions/s_central_sat_277x187.jpg",
+AZ    :"http://i.imwx.com/web/maps/satellite/regions/southwest_sat_277x187.jpg",
+CA    :"http://i.imwx.com/images/sat/regions/west_cen_sat_277x187.jpg",
+CO    :"http://i.imwx.com/images/sat/regions/central_sat_277x187.jpg",
+CT    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+DC    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+DE    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+FL    :"http://i.imwx.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
+GA    :"http://i.imwx.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
+HI    :"http://i.imwx.com/web/maps/satellite/regions/hisat_277x187.jp",
+IA    :"http://i.imwx.com/images/sat/regions/n_central_sat_277x187.jpg",
+ID    :"http://i.imwx.com/images/sat/regions/west_cen_sat_277x187.jpg",
+IL    :"http://i.imwx.com/images/sat/regions/central_sat_277x187.jpg",
+IN    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+KS    :"http://i.imwx.com/images/sat/regions/central_sat_277x187.jpg",
+KY    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+LA    :"http://i.imwx.com/web/maps/satellite/regions/southeast_sat_277x187.jpg",
+MA    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+MD    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+ME    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+MI    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+MN    :"http://i.imwx.com/images/sat/regions/n_central_sat_277x187.jpg",
+MO    :"http://i.imwx.com/images/sat/regions/central_sat_277x187.jpg",
+MS    :"http://i.imwx.com/images/sat/regions/s_central_sat_277x187.jpg",
+MT    :"http://i.imwx.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
+NC    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+ND    :"http://i.imwx.com/images/sat/regions/n_central_sat_277x187.jpg",
+NE    :"http://i.imwx.com/images/sat/regions/central_sat_277x187.jpg",
+NH    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+NJ    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+NM    :"http://i.imwx.com/web/maps/satellite/regions/southwest_sat_277x187.jpg",
+NV    :"http://i.imwx.com/images/sat/regions/west_cen_sat_277x187.jpg",
+NY    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+OH    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+OK    :"http://i.imwx.com/images/sat/regions/s_central_sat_277x187.jpg",
+OR    :"http://i.imwx.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
+PA    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+PR    :"http://i.imwx.com/web/maps/satellite/regions/caribsat_277x187.jpg",
+RI    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+SC    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+SD    :"http://i.imwx.com/images/sat/regions/n_central_sat_277x187.jpg",
+TN    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+TX    :"http://i.imwx.com/images/sat/regions/s_central_sat_277x187.jpg",
+UT    :"http://i.imwx.com/images/sat/regions/west_cen_sat_277x187.jpg",
+VA    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+VT    :"http://i.imwx.com/web/maps/satellite/regions/northeast_sat_277x187.jpg",
+VI		:"http://i.imwx.com/web/maps/satellite/regions/caribsat_277x187.jpg",
+WA    :"http://i.imwx.com/web/maps/satellite/regions/northwest_sat_277x187.jpg",
+WI    :"http://i.imwx.com/images/sat/regions/n_central_sat_277x187.jpg",
+WV    :"http://i.imwx.com/images/sat/regions/east_cen_sat_277x187.jpg",
+WY    :"http://i.imwx.com/images/sat/regions/west_cen_sat_277x187.jpg"
 }
 }
 
@@ -393,20 +393,20 @@ WeatherData.prototype.hasWindSpeedGusting = function() {
 
 WeatherData.prototype.getSevereAlertLink = function() {
 		return String.format(
-			"{0}/local/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
+			"{0}/today/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
 }
 
 WeatherData.prototype.getTodayLink = function() {
 	var locale = config.siteLocale();
 	if (locale == 'en_US') {
 		return String.format(
-			"{0}/local/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
+			"{0}/today/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 	else if (config.language() == 'es' || locale == 'en_GB' || locale == 'en_IN' || locale == 'fr_FR') {
 		return String.format("{0}/today-{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=today", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 	else if (locale == 'de_DE' || locale == 'pt_BR') {
-		return String.format("{0}/local/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=today", config.getBaseUri(), config.locId(), config.getTrackingCode());
+		return String.format("{0}/today/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=today", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 }
 
@@ -436,7 +436,7 @@ WeatherData.prototype.getForecastTomorrowLink = function() {
 		return String.format("{0}/tomorrow-{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=tomorrow", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 	else if (locale == 'de_DE' || locale == 'pt_BR') {
-		return String.format("{0}/local/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=tomorrow", config.getBaseUri(), config.locId(), config.getTrackingCode());
+		return String.format("{0}/today/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=tomorrow", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 }
 
@@ -536,10 +536,10 @@ WeatherData.prototype.getExtendedOutlookLink = function() {
 			"{0}/tenday/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Tenday", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 	else if (config.language() == 'es' || locale == 'en_GB' || locale == 'en_IN' || locale == 'fr_FR') {
-		return String.format("{0}/10day-{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=10day", config.getBaseUri(), config.locId(), config.getTrackingCode());
+		return String.format("{0}/tenday-{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=10day", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 	else if (locale == 'de_DE' || locale == 'pt_BR') {
-		return String.format("{0}/local/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=10day", config.getBaseUri(), config.locId(), config.getTrackingCode());
+		return String.format("{0}/today/{1}?par=chromev1.1.0&site=weather&promo=0&cm_ven={2}&cm_cat=chrome&cm_ite=weather&cm_pla=10day", config.getBaseUri(), config.locId(), config.getTrackingCode());
 	}
 }
 
@@ -615,9 +615,9 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
         if (weatherData.hasCurrentCondition) 
         {
 				  weatherData.lastUpdated = findTextContent(xmlDoc, "/weather/cc/lsup");
-	        weatherData.temperatureClear = String.format("{0}�", findTextContent(xmlDoc, "/weather/cc/tmp"));
+	        weatherData.temperatureClear = String.format("{0}째", findTextContent(xmlDoc, "/weather/cc/tmp"));
 	        weatherData.temperature = String.format("{0}{1}", weatherData.temperatureClear, ut);
-	        weatherData.feelsLike = String.format("{0}�{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
+	        weatherData.feelsLike = String.format("{0}째{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
 	        weatherData.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/cc/icon"),2));
 				  weatherData.condition = findTextContent(xmlDoc, "/weather/cc/t");
 				  weatherData.humidity = String.format("{0}%",findTextContent(xmlDoc, "/weather/cc/hmid"));
@@ -678,9 +678,9 @@ function setForecast(xmlDoc, forecast, day, part, ut) {
 		forecast.highTemperature = "N/D";
 		forecast.lowTemperature = "N/D";
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi") != "N/D")
-			forecast.highTemperature = String.format("{0}�{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi"), ut);
+			forecast.highTemperature = String.format("{0}째{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi"), ut);
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low") != "N/D")
-			forecast.lowTemperature = String.format("{0}�{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low"), ut);
+			forecast.lowTemperature = String.format("{0}째{1}",findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/low"), ut);
 		forecast.condition = findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/t");
 		forecast.precipitation = String.format("{0}%", findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/ppcp"));
 		forecast.dayPart = part;
