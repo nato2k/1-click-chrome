@@ -636,7 +636,8 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 				  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue;
 				else
 					weatherData.severeAlertsCount = 0;
-			  var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
+				var hasMorningForecast = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/part[@p='d']/icon"));
+			  //var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
 		  	if (hasMorningForecast) 
 		  	{
 		  		setForecast(xmlDoc, weatherData.forecastToday, '0', 'd', ut);
