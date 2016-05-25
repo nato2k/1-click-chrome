@@ -674,7 +674,19 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 }
 
 function setForecast(xmlDoc, forecast, day, part, ut) {
+	// start new code
+	var hasIcon = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/icon"));
+	//console.log("hasIcon: " + hasIcon);
+		if (hasIcon) {
+			// end new code
   	forecast.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/icon"),2));
+		//start new code
+		}
+		else 
+		{
+			forecast.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/cc/icon"),2));
+		}
+		//end new code
 		forecast.highTemperature = "N/D";
 		forecast.lowTemperature = "N/D";
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi") != "N/D")
