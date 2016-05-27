@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @LMckin51
+ Unwatch 2
+  Star 0
+  Fork 0 nato2k/1-click-chrome
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+Branch: testing-lanny Find file Copy path1-click-chrome/js/logic.js
+08f9acc  18 hours ago
+@LMckin51 LMckin51 Update radar links
+2 contributors @nato2k @LMckin51
+RawBlameHistory     689 lines (644 sloc)  53.9 KB
 var internationalLinks = 
 {
 	eur:"https://weather.com/maps/satellite/unitedkingdom-weather-map",
@@ -699,3 +715,5 @@ function setForecast(xmlDoc, forecast, day, part, ut) {
 		forecast.dayPart = part;
 		forecast.day = day;
 }
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
