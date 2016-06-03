@@ -615,12 +615,18 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
         if (weatherData.hasCurrentCondition) 
         {
 				  weatherData.lastUpdated = findTextContent(xmlDoc, "/weather/cc/lsup");
+<<<<<<< HEAD
 //	        weatherData.temperatureClear = String.format("{0}°", findTextContent(xmlDoc, "/weather/cc/tmp"));
 			weatherData.temperatureClear = String.format("{0}\xB0", findTextContent(xmlDoc, "/weather/cc/tmp"));
 	        weatherData.temperature = String.format("{0}{1}", weatherData.temperatureClear, ut);
 			console.log("UT:" + ut)
 //	        weatherData.feelsLike = String.format("{0}°{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
 			weatherData.feelsLike = String.format("{0}\xB0{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
+=======
+	        weatherData.temperatureClear = String.format("{0}\xB0", findTextContent(xmlDoc, "/weather/cc/tmp"));
+	        weatherData.temperature = String.format("{0}{1}", weatherData.temperatureClear, ut);
+	        weatherData.feelsLike = String.format("{0}\xB0{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
+>>>>>>> refs/remotes/origin/1-click-beta
 	        weatherData.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/cc/icon"),2));
 				  weatherData.condition = findTextContent(xmlDoc, "/weather/cc/t");
 				  weatherData.humidity = String.format("{0}%",findTextContent(xmlDoc, "/weather/cc/hmid"));
@@ -635,11 +641,12 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 			  else
   	        weatherData.icon = "44.png";
 
-			  if (config.siteLocale() == 'en_US')
-				  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue;
-				else
-					weatherData.severeAlertsCount = 0;
-			  var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
+			  if (config.siteLocale() == 'en_US') {
+			  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue; }
+				else {
+				weatherData.severeAlertsCount = 0; }
+				var hasMorningForecast = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/part[@p='d']/icon"));
+			  //var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
 		  	if (hasMorningForecast) 
 		  	{
 		  		setForecast(xmlDoc, weatherData.forecastToday, '0', 'd', ut);
@@ -677,7 +684,19 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 }
 
 function setForecast(xmlDoc, forecast, day, part, ut) {
+	// start new code
+	var hasIcon = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/icon"));
+	//console.log("hasIcon: " + hasIcon);
+		if (hasIcon) {
+			// end new code
   	forecast.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/part[@p='" + part + "']/icon"),2));
+		//start new code
+		}
+		else 
+		{
+			forecast.icon = String.format("{0}.png", padDigits(findTextContent(xmlDoc, "/weather/cc/icon"),2));
+		}
+		//end new code
 		forecast.highTemperature = "N/D";
 		forecast.lowTemperature = "N/D";
 		if (findTextContent(xmlDoc, "/weather/dayf/day[@d='" + day + "']/hi") != "N/D")
