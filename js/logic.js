@@ -632,10 +632,10 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 			  else
   	        weatherData.icon = "44.png";
 
-			  if (config.siteLocale() == 'en_US')
-				  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue;
-				else
-					weatherData.severeAlertsCount = 0;
+			  if (config.siteLocale() == 'en_US') {
+			  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue; }
+				else {
+				weatherData.severeAlertsCount = 0; }
 				var hasMorningForecast = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/part[@p='d']/icon"));
 			  //var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
 		  	if (hasMorningForecast) 
