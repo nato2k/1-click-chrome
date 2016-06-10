@@ -79,6 +79,7 @@ function loadData() {
 		if (page.weatherData.hasSevereAlerts() && config.siteLocale() == 'en_US') {
 			console.log("Severe:" + page.weatherData.severeAlertsCount);
 				$("#alert").click(function() { openTab(page.weatherData.getSevereAlertLink()); });
+				console.log("Severe Link: " + page.weatherData.getSevereAlertLink())
 		}
 		else
 				$("#alert").hide();
