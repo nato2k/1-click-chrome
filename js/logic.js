@@ -389,8 +389,14 @@ WeatherData.prototype.hasSevereAlerts = function() {
 }
 
 WeatherData.prototype.getSevereAlertLink = function() {
+	if (this.severeAlertsCount > 0) {
 	var lnk = this.severeAlertLink.split("/");
 	return "https://weather.com/weather/alerts/localalerts/l/" + lnk[lnk.length - 1];
+	}
+	else
+	{
+	return ""
+	}
 	//	return findTextContent(xmlDoc, "/weather/swa/a/l");
 		//return String.format(
 			//"{0}/today/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
