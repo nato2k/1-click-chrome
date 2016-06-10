@@ -75,9 +75,11 @@ function loadData() {
 			$("#val_visi").text(tr("nonAvailable"));
 			$("#val_wind").text(tr("nonAvailable"));
 		}
-		
-		if (page.weatherData.hasSevereAlerts && config.siteLocale() == 'en_US') {
+		//if (page.weatherData.severeAlertsCount > 0 && config.siteLocale() == 'en_US') {
+		if (page.weatherData.hasSevereAlerts() && config.siteLocale() == 'en_US') {
+			console.log("Severe:" + page.weatherData.severeAlertsCount);
 				$("#alert").click(function() { openTab(page.weatherData.getSevereAlertLink()); });
+				console.log("Severe Link: " + page.weatherData.getSevereAlertLink())
 		}
 		else
 				$("#alert").hide();

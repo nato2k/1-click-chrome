@@ -367,8 +367,9 @@ function WeatherData() {
   this.windSpeed = "";
   this.hasCurrentCondition = false;
   this.windSpeedGusting = "";
-  this.severaAlertsCount = 0;
+  this.severeAlertsCount = 0;
   this.loaded = false;
+  this.severeAlertLink = "";
   this.forecastToday = new Forecast();
   this.forecastNext = new Forecast();
 }
@@ -387,13 +388,16 @@ WeatherData.prototype.hasSevereAlerts = function() {
 	return (this.severeAlertsCount > 0);
 }
 
-WeatherData.prototype.hasWindSpeedGusting = function() { 
-	return (this.windSpeedGusting != "");
+WeatherData.prototype.getSevereAlertLink = function() {
+	var lnk = this.severeAlertLink.split("/");
+	return "https://weather.com/weather/alerts/localalerts/l/" + lnk[lnk.length - 1];
+	//	return findTextContent(xmlDoc, "/weather/swa/a/l");
+		//return String.format(
+			//"{0}/today/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
 }
 
-WeatherData.prototype.getSevereAlertLink = function() {
-		return String.format(
-			"{0}/today/{1}?par=chromev1.1.0&site=us-weather&cm_ven={2}&cm_cat=chromev1.1.0&cm_pla=us-weather&cm_ite=Today", config.getBaseUri(), config.locId(), config.getTrackingCode());
+WeatherData.prototype.hasWindSpeedGusting = function() { 
+	return (this.windSpeedGusting != "");
 }
 
 WeatherData.prototype.getTodayLink = function() {
@@ -632,10 +636,12 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
 			  else
   	        weatherData.icon = "44.png";
 
-			  if (config.siteLocale() == 'en_US')
-				  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue;
-				else
-					weatherData.severeAlertsCount = 0;
+			  if (config.siteLocale() == 'en_US') {
+			  weatherData.severeAlertsCount = xmlDoc.evaluate( 'count(/weather/swa/a)', xmlDoc, null, XPathResult.ANY_TYPE, null ).numberValue;
+			  weatherData.severeAlertLink = findTextContent(xmlDoc, "/weather/swa/a/l");
+				}
+				else {
+				weatherData.severeAlertsCount = 0; }
 				var hasMorningForecast = String.format("{0}", findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/part[@p='d']/icon"));
 			  //var hasMorningForecast = !(isNaN(parseInt(findTextContent(xmlDoc, "/weather/dayf/day[@d='0']/hi"))));
 		  	if (hasMorningForecast) 
