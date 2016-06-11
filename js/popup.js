@@ -45,7 +45,7 @@ function loadData() {
 		$("#current, #val_loca, #val_cond").css("cursor","pointer").click(function() { openTab(page.weatherData.getTodayLink()); });
 		console.log("todayuri: " + page.weatherData.getTodayLink());
 		// Set location
-		$("#lbl_lupd").html(String.format("{0}<br/>{1}", tr('lastUpdated'), (page.weatherData.lastUpdated != "") ? formatDate(page.weatherData.lastUpdated) : tr("nonAvailable") ));
+		$("#lbl_lupd").html(String.format("{2}<br/>{3}<br/>{0}<br/>{1}", tr('lastUpdated'), (page.weatherData.lastUpdated != "") ? formatDate(page.weatherData.lastUpdated) : tr("nonAvailable"), page.weatherData.sunrise, page.weatherData.sunset ));
 		$("#val_loca").text(page.weatherData.cityName);
 
 		$("#lbl_feelsLike").text(tr("feelsLike"));

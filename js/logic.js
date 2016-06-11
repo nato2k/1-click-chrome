@@ -372,6 +372,8 @@ function WeatherData() {
   this.severeAlertLink = "";
   this.forecastToday = new Forecast();
   this.forecastNext = new Forecast();
+  this.sunrise = "";
+  this.sunset = "";
 }
 
 function Forecast() {
@@ -625,6 +627,8 @@ WeatherData.prototype.updateInfo = function(onSuccess , onError) {
         if (weatherData.hasCurrentCondition) 
         {
 				  weatherData.lastUpdated = findTextContent(xmlDoc, "/weather/cc/lsup");
+				  weatherData.sunrise = "Sunrise: " + findTextContent(xmlDoc, "/weather/loc/sunr");
+				  weatherData.sunset = "Sunset: " + findTextContent(xmlDoc, "/weather/loc/suns");
 	        weatherData.temperatureClear = String.format("{0}\xB0", findTextContent(xmlDoc, "/weather/cc/tmp"));
 	        weatherData.temperature = String.format("{0}{1}", weatherData.temperatureClear, ut);
 	        weatherData.feelsLike = String.format("{0}\xB0{1}", findTextContent(xmlDoc, "/weather/cc/flik"), ut);
