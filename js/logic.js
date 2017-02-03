@@ -203,7 +203,7 @@ international :
  SV :{code:"eur",map:"http://i.imwx.com/images/sat/europesat_277x187.jpg"},
  WZ :{code:"afr",map:"http://i.imwx.com/images/sat/africasat_277x187.jpg"},
  SW :{code:"eur",map:"http://i.imwx.com/images/sat/europesat_277x187.jpg"},
- SZ :{code:"eur",map:"http://i.imwx.com/images/sat/europesat_277x187.jpg"},
+ SZ :{code:"eur",map:"https://i.imwx.com/images/sat/europesat_277x187.jpg"},
  SY :{code:"me",map:"http://i.imwx.com/images/sat/mideastsat_277x187.jpg"},
  TW :{code:"asia",map:"http://i.imwx.com/images/sat/asiasat_277x187.jpg"},
  TI :{code:"me",map:"http://i.imwx.com/images/sat/mideastsat_277x187.jpg"},
